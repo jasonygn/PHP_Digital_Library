@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+}
+
+.box1 {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    float: left;
+    opacity: 0.8;
+}
+.box2 {
+    background-color: whitesmoke;
+    width: 60%;
+    height: 100%;
+    float: left; 
+    text-align: center; 
+}
+.box3 {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    float: right;
+    opacity: 0.8;
+}
+.menubox{
+    width: 40px;
+    height: 40px; 
+    float: left;
+    background-color: transparent;
+}
+.highlight-text{
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.menu-btn {
+display: block;
+margin: 1em;
+position: absolute;
+width: 48px;
+background-color: transparent;
+}
+.menu-btn:before,
+.menu-btn:after {
+background-color:black; 
+content: '';
+display: block;
+height: 4px;
+transition: all 200ms ease-in-out;
+}
+.menu-btn:before {
+box-shadow: 0 10px 0 chocolate;
+margin-bottom: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px;
+    height: 200px; 
+}
+.dropdown-content a{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block; 
+    text-transform: uppercase;
+    position: relative; 
+    text-align: justify;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1; 
+}
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+.dropdown:hover .menu-btn {
+    background-color: #3e8e41; 
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 7px 5px;
+}
+
+ul{
+    list-style-type: none; 
+}
+li {
+    margin: 1em 0; 
+}
+
+/* This css apply to Home page */ 
